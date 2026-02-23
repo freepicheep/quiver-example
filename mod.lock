@@ -1,0 +1,16 @@
+# This file is generated automatically. Do not edit.
+version = 1
+
+[[package]]
+name = "nu-salesforce"
+git = "https://github.com/freepicheep/nu-salesforce"
+tag = "v0.3.0"
+rev = "13cdebf7bab6355e72f6fde52492247ee274db01"
+sha256 = "ceb26d57788d4a82147a948b870daff5bdd3279e5fe66580d45e54db5bb87e37"
+
+[[package]]
+name = "vouch"
+git = "https://github.com/mitchellh/vouch.git"
+tag = "v1.4.0"
+rev = "daa39f90448eb4054ad334d7f53959a7efb5005b"
+sha256 = "aae2622b357f0ada681481d32a99b5c36bc6d3c9da24e94163b666f019eaa5b2"
