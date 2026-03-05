@@ -1,7 +1,0 @@
-[package]
-name = "nuance-example"
-version = "0.1.0"
-
-[dependencies.modules]
-nu-salesforce = { git = "https://github.com/freepicheep/nu-salesforce", tag = "v0.3.0" }
-vouch = { git = "https://github.com/mitchellh/vouch.git", tag = "v1.4.0" }

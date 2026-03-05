@@ -1,0 +1,13 @@
+[package]
+name = "quiver-example"
+version = "0.1.0"
+description = ""
+license = ""
+authors = []
+nu-version = "0.110.0"
+
+[dependencies.modules]
+nu-salesforce = { git = "https://github.com/freepicheep/nu-salesforce", tag = "v0.3.1" }
+
+[dependencies.plugins]
+nu_plugin_polars = { source = "nu-core", bin = "nu_plugin_polars" }
