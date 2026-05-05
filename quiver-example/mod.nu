@@ -1,4 +1,4 @@
-use nu-salesforce/nu-salesforce/ [ 'sf login' 'load-env-file' ]
+use nu-salesforce *
 
 # an easy way for you to login
 export def ez-login [] {
