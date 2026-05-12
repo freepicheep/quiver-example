@@ -1,17 +1,21 @@
 # This file is generated automatically. Do not edit.
-version = 1
-
-[[package]]
-name = "nu-salesforce"
-git = "https://github.com/freepicheep/nu-salesforce"
-tag = "v0.3.1"
-rev = "307444896bd774b4af2435422db8548e1a0a0a7d"
-sha256 = "6f9209bd21a849ee44d80c9b2a36d57f62dd6833348d7b447b578bd99be82d98"
-
-[[package]]
-name = "nu_plugin_polars"
-kind = "plugin"
-git = "nu-core"
-rev = "nu-0.112.2"
-path = "nu_plugin_polars"
-sha256 = "91758d8a9160ab7eb1e5af5a26f3990a2bb9e157bbb1c0edecaabd32ce8803e7"
+{
+  version: 1,
+  packages: [
+    {
+      name: "nu-salesforce",
+      git: "https://github.com/freepicheep/nu-salesforce",
+      tag: "v0.3.1",
+      rev: "307444896bd774b4af2435422db8548e1a0a0a7d",
+      sha256: "6f9209bd21a849ee44d80c9b2a36d57f62dd6833348d7b447b578bd99be82d98",
+    },
+    {
+      name: "nu_plugin_polars",
+      kind: "plugin",
+      git: "nu-core",
+      rev: "nu-0.112.2",
+      path: "nu_plugin_polars",
+      sha256: "91758d8a9160ab7eb1e5af5a26f3990a2bb9e157bbb1c0edecaabd32ce8803e7",
+    },
+  ],
+}

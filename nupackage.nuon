@@ -1,0 +1,26 @@
+{
+  package: {
+    name: quiver-example,
+    version: "0.1.0",
+    description: "An example showing how amazing quiver is",
+    license: MIT,
+    authors: [
+      "Friedrich Stoltzfus"
+    ],
+    nu-version: ">=0.110.0"
+  },
+  dependencies: {
+    modules: {
+      nu-salesforce: {
+        git: "https://github.com/freepicheep/nu-salesforce",
+        tag: "v0.3.1"
+      }
+    },
+    plugins: {
+      nu_plugin_polars: {
+        source: nu-core,
+        bin: nu_plugin_polars
+      }
+    }
+  }
+}
